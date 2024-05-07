@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SMK RANTAU PANJANG</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Selamat Datang di SMK RANTAU PANJANG</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="showBeranda()">Beranda</a></li>
+                        <li>
+                            <a href="#" onclick="showTentang()">Tentang Kami</a>
+                        </li>
+                        <li><a href="#" onclick="showProgram()">Program</a></li>
+                        <li><a href="#" onclick="showKontak()">Kontak</a></li>
+                        <li>
+                            <a href="#" onclick="showAktivitas()">Aktivitas</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="beranda" style="display: none">
+                <h2>Selamat datang di SMK RANTAU PANJANG</h2>
+                <p>
+                    SMK RANTAU PANJANG adalah tempat untuk meraih impianmu.
+                    Bergabunglah dengan kami untuk mendapatkan pengalaman
+                    pendidikan yang tak terlupakan.
+                </p>
+            </section>
+
+            <section id="tentang-kami" style="display: none">
+                <h2>Tentang Kami</h2>
+                <p>Ini adalah informasi tentang SMK RANTAU PANJANG.</p>
+            </section>
+
+            <section id="program" style="display: none">
+                <h2>Program</h2>
+                <p>
+                    Ini adalah program yang ditawarkan oleh SMK RANTAU PANJANG.
+                </p>
+            </section>
+
+            <section id="kontak" style="display: none">
+                <h2>Kontak</h2>
+                <p>Silakan hubungi kami melalui informasi kontak berikut.</p>
+                <div class="social-icons">
+                    <a
+                        href="https://www.instagram.com/serantau_official?igsh=aWRoNWVkOTUwOWY5"
+                        ><img src="instagram.png" alt="Instagram"
+                    /></a>
+                    <a
+                        href="https://www.tiktok.com/@serantauhebat?_t=8m7hvbeH7Bo&_r=1z"
+                        ><img src="tiktok.png" alt="TikTok"
+                    /></a>
+                    <a
+                        href="https://youtube.com/@smkrantaupanjangkpm-sk-adm1837?si=y9DchEHIb3cTNsZE"
+                        ><img src="youtube.png" alt="YouTube"
+                    /></a>
+                </div>
+            </section>
+
+            <section id="aktivitas" style="display: none">
+                <h2>Galeri Aktivitas</h2>
+                <div class="gallery">
+                    <img src="aktivitas1.jpg" alt="Aktivitas 1" />
+                    <img src="aktivitas2.jpg" alt="Aktivitas 2" />
+                    <img src="aktivitas3.jpg" alt="Aktivitas 3" />
+                    <!-- Tambahkan gambar aktivitas lainnya sesuai kebutuhan -->
+                </div>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

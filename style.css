@@ -1,0 +1,141 @@
+body {
+  background: url('content://ru.zdevs.zarchiver.external/storage/C8D4-F02B/Random/WEB SEKOLAH/Img/muat_turun__3_-removebg-preview.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #555;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: changeColor 5s infinite;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  color: #fff;
+  animation: none; /* Menonaktifkan animasi saat hover */
+}
+
+@keyframes changeColor {
+  0% { background-color: #ff0000; }
+  20% { background-color: #ff7f00; }
+  40% { background-color: #ffff00; }
+  60% { background-color: #00ff00; }
+  80% { background-color: #0000ff; }
+  100% { background-color: #8a2be2; }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.social-icons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+h2 {
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
